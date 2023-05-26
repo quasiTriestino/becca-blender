@@ -1,7 +1,6 @@
 import os
 import bpy
 
-
 def run(cells_path):
 
     file_list = sorted(os.listdir(cells_path))

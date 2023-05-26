@@ -1,6 +1,9 @@
 import bpy
 from . import scripts
 
+import importlib
+importlib.reload(scripts)
+
 class importCells(bpy.types.Operator):
     """Import cells."""
 
